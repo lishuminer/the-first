@@ -1,0 +1,20 @@
+/*
+	判断输入的整数的符号
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+	int no;
+
+	printf("请输入一个整数：");
+	scanf("%d", &no);
+
+	if (no >= 0)
+		printf("绝对值是%d", no);
+	else
+		printf("绝对值是%d", -no);
+
+	return 0;
+}
