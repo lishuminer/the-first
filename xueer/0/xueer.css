@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: rgb(223, 217, 217);
+    height: 1700px;
+}
+
+.header {
+    height: 57px;
+    background-color: white;
+}
+.center {
+    width: 900px;
+    height: 57px;
+    background-color: white;
+    margin: 0 auto;
+    line-height: 51px;
+    position: relative;
+
+}
+
+.fl li {
+    list-style: none;
+    float: left;
+}
+.header a {
+    display: inline-block;
+    height: 55px;
+    text-decoration: none;
+    color: black;
+    margin: 2px 30px;
+}
+#a_red {
+    border-top:  rgb(244, 67, 54) solid 4px;
+    color:  rgb(244, 67, 54);
+}
+
+.search {
+    position: absolute;
+    top: 15px;
+    left: 400px;
+    border: solid  rgb(244, 67, 54) 2px;
+}
+.text {
+    float: left;
+    width: 200px;
+    height: 25px;
+}
+.btn {
+    float: left;
+    width: 75px;
+    height: 25px;
+}
+#me {
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    left: 720px;
+}
+img {
+    max-height: 100%;
+}
+.leave input{
+    border: none;
+    background-color: rgb(29, 192, 145);
+    width: 100px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+
+.part1 {
+    margin: 0 auto;
+    width: 900px;
+    background-color: white;
+    
+}
+
+.pic {
+    width: 900px;
+    height: 330px;
+    background-image: url(images/lunbotu.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.circle ul {
+    margin-left: 40px;
+}
+.circle li{
+    margin: 20px 45px;
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(29, 192, 145);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 100%;
+    border: solid 3px rgb(29, 192, 145);
+}
+
+.line {
+    padding: 0 40px;
+    margin-top: 20px;
+    border-left: solid 1px rgb(202, 195, 195);
+    display: inline-block;
+    width: 130px;
+}
+
+.l1 {
+    padding-left: 60px;
+    border-left: none;
+}
+.word {
+    font-size: 12px;
+    color: gray;
+}
+.red {
+    color: rgb(244, 67, 54);
+}
+.jiahao img{
+    width: 100%;
+    height: 90px;
+}
+.part2 {
+    margin: 10px auto;
+    width: 900px;
+    height: 360px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+h2 {
+    padding-top: 20px;
+}
+h3 {
+    color: rgb(29, 192, 145);
+    padding-bottom: 20px;
+}
+.on {
+    margin: 0 auto;
+    height: 100px;
+    width: 680px;
+    text-align: center;
+    font-size: 15px;
+}
+.under {
+    margin: 0 auto;
+    height: 100px;
+    width: 673px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 200px;
+    left: 113px;
+}
+.character {
+    height: 80px;
+    width: 130px;
+    border: 3px solid rgb(29, 192, 145);
+    float: left;
+    padding-top: 20px;
+}
+.number {
+    text-decoration: underline;
+    height: 100px;
+    line-height: 100px;
+    width: 130px;
+    font-size:45px;
+    color: rgb(244, 67, 54);
+    float: left;
+}
+.character:hover{
+    background-color: rgb(29, 192, 145);
+}
+
+.part3 {
+    margin: 10px auto;
+    width: 900px;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+.book {
+    display: inline-block;
+    width: 170px;
+    height: 100px;
+    margin-left: 20px;
+    background-color:rgba(247, 123, 114);
+}
+.book:hover{
+    background-color:rgba(244, 67, 54) ;
+}
+.ke {
+    position: absolute;
+    top: 150px;
+    left: 55px;
+}
+.book a {
+    color: white;
+    margin-top: 20px;
+}
+.redtutu {
+    width: 80px;
+    position: absolute;
+    top: 105px;
+    left: 310px;
+}
+
+.footer {
+    height: 80px;
+    background-color: rgb(51, 51, 51);
+    position: relative;
+}
+.tutu {
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+}
